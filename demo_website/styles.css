@@ -44,6 +44,8 @@ body
 {
 	font-size: 1.5em;
 	margin:0;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .calories::before
@@ -54,10 +56,10 @@ body
 .health_scale
 {
 	background-color: lightgreen;
-	font-size: 1.5em;
+	font-size: 3em;
 	border: 2px solid black;
 	border-radius: 50%;
-	padding: 0% 5% 0% 5%;
+	padding: 0% 8% 0% 8%;
 	margin:0;
 	display: inline-block;
 }
