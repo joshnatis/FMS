@@ -39,3 +39,7 @@ mariadb> exit   # bye
 ```bash
 $ pip install mysql-connector-python
 ```
+
+---
+
+[Link to Presentation](https://docs.google.com/presentation/d/1YkzTePw4BZuKCEPLfe2GVGyBCsglpgu4ILT1aibKvCc/edit?usp=sharing)
