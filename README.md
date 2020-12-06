@@ -26,9 +26,9 @@ mariadb> GRANT ALL PRIVILEGES ON food_db.* TO 'josh'@'localhost';
 mariadb> exit   # bye
 ```
 ```bash
-su josh
-cd ~ && https://github.com/joshnatis/food_db/
-mysql -u josh -p
+$ su josh
+$ cd ~ && https://github.com/joshnatis/food_db/
+$ mysql -u josh -p
 ```
 ```sql
 mariadb> USE food_db;
@@ -37,5 +37,5 @@ mariadb> source /home/josh/food_db/documentation/useful_queries.sql
 mariadb> exit   # bye
 ```
 ```bash
-pip install mysql-connector-python
+$ pip install mysql-connector-python
 ```
