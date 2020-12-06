@@ -39,3 +39,23 @@ mariadb> exit   # bye
 ```bash
 $ pip install mysql-connector-python
 ```
+### Optional
+Because we ran `systemctl enable mariadb.service`, the MariaDB server will always be running in the background on our computer (and will start automatically upon booting our computer). This is normal for production environments, but at home we don't need the extra process running constantly if we're not using it. We can instead start and stop MariaDB manually:
+```bash
+# run this once, to disable it from starting at boot
+$ sudo systemctl disable mariadb.service
+
+# commands to manually start/stop:
+$ sudo systemctl start mariadb.service
+$ sudo systemctl stop mariadb.service
+
+# NOTE: if you try to log in to MariaDB with the server still stopped, you'll get the following error:
+# ERROR 2002 (HY000): Can't connct to local MySQL server ...
+
+# You check whether the server is up by running:
+ps -A | grep "maria" # if the output is empty, it's stopped
+```
+
+---
+
+[Link to Presentation](https://docs.google.com/presentation/d/1YkzTePw4BZuKCEPLfe2GVGyBCsglpgu4ILT1aibKvCc/edit?usp=sharing)
