@@ -106,7 +106,7 @@ $ export MARIADB_PASSWORD="yourpassword"
 ```
 ```python
 import os
-password = os.environ.get("MARIADB_PASSWORD)
+password = os.environ.get("MARIADB_PASSWORD")
 ```
 
 ---
