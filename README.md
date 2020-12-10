@@ -30,8 +30,8 @@ $ mysql -u josh -p
 ```
 ```sql
 mariadb> USE food_db;
-mariadb> source /home/josh/food_db/documentation/load.sql
-mariadb> source /home/josh/food_db/documentation/useful_queries.sql
+mariadb> source /home/josh/food_db/sql/load.sql
+mariadb> source /home/josh/food_db/sql/useful_queries.sql
 mariadb> exit   # bye
 ```
 ### Manually Controlling MariaDB
