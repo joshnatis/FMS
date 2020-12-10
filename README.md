@@ -1,5 +1,4 @@
-# food_db
-Food Management System (CS 435)
+# Food Management System
 
 ## Setup
 These are directions to:

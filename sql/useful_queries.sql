@@ -4,21 +4,6 @@
 /* create and fill tables */
 -- SOURCE /home/2020/hunter/fall/43501/nj5074/food_db/documentation/load.sql
 
-
-------- regular queries -------
-/*
-Each query is available for (1) entire household, (2) single user, (3) all users displayed individually.
-Each query is available for (1) all time, (2) this year, (3) this month, (4) this week, (5) custom time range.
-
-* fraction of items which are healthy (i.e healthy_scale > 7)
-
-
-
-------- action queries -------
-* discard/use item
-*/
-
-
 /* show how many of each type of food has ever been purchased */
 /* variations: user_id, out of available, limit */
 SELECT food_types.food_name, COUNT(food_instances.food_id) * food_instances.quantity as num_purchases FROM
@@ -34,7 +19,6 @@ SELECT food_types.food_name, COUNT(food_instances.food_id) * food_instances.quan
   | CALDO PAELLA    |            28 |
   | Rindsgulasch    |            28 |
   +-----------------+---------------+*/
-
 
 
 
@@ -242,3 +226,4 @@ ORDER BY num_purchases) as a ))AS percentage_of_healthy_items)as w;
   +-----------------------------+
   | 30.30%                      |
   +-----------------------------+*/
+
