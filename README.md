@@ -1,5 +1,34 @@
 # Food Management System
 
+By [Josh](https://github.com/joshnatis), [Liulan](https://github.com/liulanz), and [Chi Shing](https://github.com/chislee0708) for CS435
+
+```
+Understanding our relationship with food can have many benefits.
+However, it is quite difficult to track one’s food-related activities manually.
+Writing down every item we buy along with its price, expiration  date, and so on
+all while keeping this information safe and organized over long periods of time
+requires a herculean effort. Yet, this information is immensely useful to analyze,
+as it can help us spend smarter, eat healthier, and be less wasteful. Our system
+will allow users to programmatically track food items.
+```
+
+## Usage
+```bash
+# Make sure you have an active MySQL or MariaDB server running,
+# and that it has a database named 'food_db' filled with our data,
+# as well as a user account that has access to the database.
+# See the 'Setup' section for information on how to do that.
+
+python3 food_cli.py
+```
+
+## Install
+```bash
+$ pip3 install mysql-connector-python
+$ git clone https://github.com/joshnatis/fms
+```
+---
+
 ## Setup
 These are directions to:
 1. install MariaDB (a free and open source version of MySQL) on Arch Linux,
@@ -7,7 +36,7 @@ These are directions to:
 3. assign them a database,
 4. create tables and fill the database with our data
 ```bash
-$ sudo pacman -Syu mariadb
+$ sudo pacman -Syu mariadb  # use your system's package manager
 $ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 $ cd '/usr' ; /usr/bin/mysqld_safe --datadir='/var/lib/mysql'   # might not be necessary
 $ sudo systemctl enable mariadb.service
@@ -24,8 +53,8 @@ mariadb> GRANT ALL PRIVILEGES ON food_db.* TO 'josh'@'localhost';
 mariadb> exit   # bye
 ```
 ```bash
-$ su josh
-$ cd ~ && https://github.com/joshnatis/food_db/
+$ su josh # switch back from root your user account
+$ cd ~ && https://github.com/joshnatis/fms/
 $ mysql -u josh -p
 ```
 ```sql
