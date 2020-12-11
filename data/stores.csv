@@ -8,7 +8,7 @@ store_id,store_name,store_street,store_city,store_state
 7,Avitable Bros,1016 McLean Ave,Yonkers,NY
 8,Katonah Pizza & Pasta,4307 Katonah Ave,Bronx,NY
 9,Vegans Delight,3565 Boston Rd,New York,NY
-10,Sal's Pizzeria & Restaurant,1160 Yonkers Ave,Yonkers,NY
+10,Sal's Pizzeria & Restaurant,1160 Yonkers Ave,Yonkers,NYf
 11,La Grotta Trattoria,811 McLean Ave,Yonkers,NY
 12,Angelo Pizzeria,986 McLean Ave,Yonkers,NY
 13,Cooyah Restaurant,3563 Boston Rd,New York,NY
@@ -5032,7 +5032,7 @@ store_id,store_name,store_street,store_city,store_state
 5031,Portugal Express,460 S Broad St,Elizabeth,NY
 5032,Lunchbox,1612 Forest Ave,Staten Island,NY
 5033,Food Express Truck,Across From Home Depot,Staten Island,NY
-5034,Johnny Rockets,651 Kapkowski Road, Sp. 2069,Staten Island,NY
+5034,Johnny Rockets,651 Kapkowski Road Sp. 2069,Staten Island,NY
 5035,John's Famous Deli,15 Innis St,Staten Island,NY
 5036,Al Santillo's Brick Oven Pizza,639 S Broad St,Elizabeth,NY
 5037,Brisas Colombianas Bakery,262 Morris Ave,Elizabeth,NY
