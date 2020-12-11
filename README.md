@@ -59,7 +59,7 @@ mariadb> exit   # bye
 ```
 ```bash
 $ su josh # switch back from root your user account
-$ cd ~ && https://github.com/joshnatis/fms/
+$ cd ~ && git clone https://github.com/joshnatis/fms/
 $ mysql -u josh -p
 ```
 ```sql
