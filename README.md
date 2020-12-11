@@ -11,6 +11,11 @@ requires a herculean effort. Yet, this information is immensely useful to analyz
 as it can help us spend smarter, eat healthier, and be less wasteful. Our system
 will allow users to programmatically track food items.
 ```
+`Click me to watch a demo!`
+<br>
+<a href="https://youtu.be/_mlEGVKiPXE">
+  <img src="https://raw.githubusercontent.com/joshnatis/assets/master/FMS/food_db_cli_preview.png?token=AHP5EJSXQXIEF45HAEL4ZKS73P32C" alt="vid preview" width="50%" height="50%">
+</a>
 
 ## Usage
 ```bash
@@ -139,4 +144,4 @@ password = os.environ.get("MARIADB_PASSWORD")
 
 ---
 
-[Link to Presentation](https://docs.google.com/presentation/d/1YkzTePw4BZuKCEPLfe2GVGyBCsglpgu4ILT1aibKvCc/edit?usp=sharing)
+[Link to Presentation](https://docs.google.com/presentation/d/1R0Ix9HWxDaEe2nscDfknGjl-VRzGP-tC_3WmjU6wotY/edit?usp=sharing)
