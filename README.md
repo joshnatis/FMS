@@ -24,7 +24,7 @@ will allow users to programmatically track food items.
 # as well as a user account that has access to the database.
 # See the 'Setup' section for information on how to do that.
 
-python3 food_cli.py
+$ python3 food_cli.py
 ```
 
 ## Install
