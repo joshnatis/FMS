@@ -4103,7 +4103,7 @@ store_id,store_name,store_street,store_city,store_state
 4102,Portugal Express,460 S Broad St,Elizabeth,NY
 4103,Food Express Truck,Across From Home Depot,Staten Island,NY
 4104,John's Famous Deli,15 Innis St,Staten Island,NY
-4105,Johnny Rockets,"651 Kapkowski Road, Sp. 2069",NY
+4105,Johnny Rockets,651 Kapkowski Road Sp. 2069,Staten Island,NY
 4106,Buffalo Wild Wings,1447 Richmond Avenue,Staten Island,NY
 4107,Denino's Pizzeria Tavern,524 Port Richmond Ave,Staten Island,NY
 4108,Al Santillo's Brick Oven Pizza,639 S Broad St,Elizabeth,NY
@@ -4170,7 +4170,7 @@ store_id,store_name,store_street,store_city,store_state
 4169,Bisslee,1777 South Ave,Staten Island,NY
 4170,Nathan's Famous,2655 Richmond Ave,Staten Island,NY
 4171,Commons Cafe,1 Teleport Dr,Staten Island,NY
-4172,"Lorenzo's Restaurant, Bar & Cabaret",1100 S Ave,NY
+4172,Lorenzo's Restaurant Bar & Cabaret,1100 S Ave,Staten Island,NY
 4173,La Strada Restaurant,139 New Dorp Ln,Staten Island,NY
 4174,Nakata,1775 D Richmond Rd,Staten Island,NY
 4175,Alor Cafe,2110 Richmond Rd,Staten Island,NY
@@ -4787,7 +4787,7 @@ store_id,store_name,store_street,store_city,store_state
 4786,Bisslee,1777 South Ave,Staten Island,NY
 4787,Nathan's Famous,2655 Richmond Ave,Staten Island,NY
 4788,Commons Cafe,1 Teleport Dr,Staten Island,NY
-4789,"Lorenzo's Restaurant, Bar & Cabaret",1100 S Ave,NY
+4789,Lorenzo's Restaurant Bar & Cabaret,1100 S Ave,Staten Island,NY
 4790,Buffalo Wild Wings,1447 Richmond Avenue,Staten Island,NY
 4791,Oriental Plaza Chinese & Japanese Restaurant,1845 Richmond Ave,Staten Island,NY
 4792,Better Gourmet Health Kitchen,4085 Victory Blvd,Staten Island,NY
@@ -5032,7 +5032,7 @@ store_id,store_name,store_street,store_city,store_state
 5031,Portugal Express,460 S Broad St,Elizabeth,NY
 5032,Lunchbox,1612 Forest Ave,Staten Island,NY
 5033,Food Express Truck,Across From Home Depot,Staten Island,NY
-5034,Johnny Rockets,"651 Kapkowski Road, Sp. 2069",NY
+5034,Johnny Rockets,651 Kapkowski Road, Sp. 2069,Staten Island,NY
 5035,John's Famous Deli,15 Innis St,Staten Island,NY
 5036,Al Santillo's Brick Oven Pizza,639 S Broad St,Elizabeth,NY
 5037,Brisas Colombianas Bakery,262 Morris Ave,Elizabeth,NY
