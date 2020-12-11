@@ -37,7 +37,7 @@ $ git clone https://github.com/joshnatis/fms
 ## Setup
 These are directions to:
 1. install MariaDB (a free and open source version of MySQL) on Arch Linux,
-2. create a user in mariadb,
+2. create a user in MariaDB,
 3. assign them a database,
 4. create tables and fill the database with our data
 ```bash
