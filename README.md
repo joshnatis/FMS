@@ -46,7 +46,7 @@ $ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 $ cd '/usr' ; /usr/bin/mysqld_safe --datadir='/var/lib/mysql'   # might not be necessary
 $ sudo systemctl enable mariadb.service
 $ sudo systemctl start mariadb.service
-$ mysql_secure_installation   # select 'y' for all options
+$ sudo mysql_secure_installation   # select 'y' for all options
 $ reboot
 $ su root
 $ mysql -u root -p
@@ -64,8 +64,8 @@ $ mysql -u josh -p
 ```
 ```sql
 mariadb> USE food_db;
-mariadb> source /home/josh/food_db/sql/load.sql
-mariadb> source /home/josh/food_db/sql/useful_queries.sql
+mariadb> SOURCE /home/josh/food_db/sql/load.sql
+mariadb> SOURCE /home/josh/food_db/sql/useful_queries.sql
 mariadb> exit   # bye
 ```
 ### Manually Controlling MariaDB
