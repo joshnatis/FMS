@@ -14,7 +14,7 @@ will allow users to programmatically track food items.
 `Click me to watch a demo!`
 <br>
 <a href="https://youtu.be/_mlEGVKiPXE">
-  <img src="https://raw.githubusercontent.com/joshnatis/assets/master/FMS/food_db_cli_preview.png?token=AHP5EJSICEXEERATRQ7GHWK74W2UG" alt="vid preview" width="50%" height="50%">
+  <img src="https://raw.githubusercontent.com/joshnatis/assets/master/FMS/food_db_cli_preview.png" alt="vid preview" width="50%" height="50%">
 </a>
 
 ## Usage
