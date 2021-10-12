@@ -43,7 +43,7 @@ These are directions to:
 ```bash
 $ sudo pacman -Syu mariadb  # use your system's package manager
 $ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-$ cd '/usr' ; /usr/bin/mysqld_safe --datadir='/var/lib/mysql'   # might not be necessary
+$ /usr/bin/mysqld_safe --datadir='/var/lib/mysql'   # might not be necessary
 $ sudo systemctl enable mariadb.service
 $ sudo systemctl start mariadb.service
 $ sudo mysql_secure_installation   # select 'y' for all options
